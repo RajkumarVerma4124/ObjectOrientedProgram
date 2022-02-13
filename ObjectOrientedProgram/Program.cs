@@ -14,9 +14,16 @@ namespace ObjectOrientedProgram
     {
         public static void Main(string[] args)
         {
-            //Calling the deck of card object to arrange, shuffle and print deck of cards using 2d array
+            //Displaying the welcome message
+            Console.WriteLine("Welcome to the object oriented programing\n");
+
+            /*//Calling the deck of card object to arrange, shuffle and print deck of cards using 2d array
             DeckOfCards cards = new DeckOfCards();
-            cards.ArrangeArrayOfCards();
+            cards.ArrangeArrayOfCards();*/
+
+            //Calling the deck of cards
+            DeckOfCardsList list = new DeckOfCardsList();
+            list.DistributeCards();
         }
     }
 }

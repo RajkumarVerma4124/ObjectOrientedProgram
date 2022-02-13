@@ -56,7 +56,7 @@ namespace ObjectOrientedProgram.DeckOfCardsProgram
             {
                 for (int j = 0; j < suits.Length; j++)
                 {
-                    deckOfCards[suits.Length * i + j] = ranks[i] + " of " + suits[j];
+                    deckOfCards[suits.Length * i + j] = ranks[i] +"of"+ suits[j];
                 }
             }
             ShuffleOfCards();

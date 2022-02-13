@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DeckOfCardsProgram\DeckOfCards.cs" />
+    <Compile Include="DeckOfCardsProgram\DeckOfCardsList.cs" />
     <Compile Include="DeckOfCardsProgram\IDeckOfCards.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
