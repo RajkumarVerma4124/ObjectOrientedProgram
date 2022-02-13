@@ -37,7 +37,7 @@ namespace ObjectOrientedProgram.DeckOfCardsProgram
             int k = 0;
             for (int i = 0; i < 4; i++)
             {
-                Console.WriteLine("For player {0}....", i + 1);
+                Console.WriteLine("Player {0} has the cards listed below ", i + 1);
                 for (int j = 0; j < 9; j++)
                 {
                     arr[i, j] = deckOfCards[k];
