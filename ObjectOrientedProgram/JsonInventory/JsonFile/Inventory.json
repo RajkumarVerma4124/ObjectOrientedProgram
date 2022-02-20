@@ -1,0 +1,58 @@
+﻿{
+  "RiceList": [
+    {
+      "Name": "Wada Kolam",
+      "Weight": 5,
+      "Price": 57
+    },
+    {
+      "Name": "Sharbati",
+      "Weight": 8,
+      "Price": 60
+    },
+    {
+      "Name": "Indrayani",
+      "Weight": 7,
+      "Price": 70
+    },
+    {
+      "Name": "Ambemohar",
+      "Weight": 7,
+      "Price": 54
+    }
+  ],
+  "pulselist": [
+    {
+      "Name": "Black Gram",
+      "Weight": 5,
+      "Price": 45
+    },
+    {
+      "Name": "Chickpeas",
+      "Weight": 8,
+      "Price": 35
+    },
+    {
+      "Name": "Green Gram",
+      "Weight": 7,
+      "Price": 77
+    }
+  ],
+  "wheatlist": [
+    {
+      "Name": "Durum",
+      "Weight": 10,
+      "Price": 25
+    },
+    {
+      "Name": "Emmer",
+      "Weight": 5,
+      "Price": 30
+    },
+    {
+      "Name": "Common Wheat",
+      "Weight": 10,
+      "Price": 18
+    }
+  ]
+}
