@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static ObjectOrientedProgram.JsonInventory.InventoryFactory;
 
 namespace ObjectOrientedProgram.JsonInventory
 {
@@ -11,9 +12,12 @@ namespace ObjectOrientedProgram.JsonInventory
     /// </summary>
     internal interface IInventoryManager
     {
-        int CalculatePrice(int weight, int price);
-        void DisplayInventory(List<InventoryProperties.Rice> riceList);
-        void DisplayInventory(List<InventoryProperties.Wheat> wheatList);
-        void DisplayInventory(List<InventoryProperties.Pulse> pulseList);
+        void DisplayInventory();
+        List<Rice> AddInventory(List<Rice> riceList);
+        List<Wheat> AddInventory(List<Wheat> wheatList);
+        List<Pulse> AddInventory(List<Pulse> pulseList);
+        List<Rice> DeleteInventory(List<Rice> riceList);
+        List<Wheat> DeleteInventory(List<Wheat> wheatList);
+        List<Pulse> DeleteInventory(List<Pulse> pulseList);
     }
 }

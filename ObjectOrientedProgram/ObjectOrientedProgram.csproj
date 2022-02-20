@@ -52,7 +52,7 @@
     <Compile Include="JsonInventory\IInventoryManager.cs" />
     <Compile Include="JsonInventory\Inventory.cs" />
     <Compile Include="JsonInventory\InventoryManager.cs" />
-    <Compile Include="JsonInventory\InventoryProperties.cs" />
+    <Compile Include="JsonInventory\InventoryFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

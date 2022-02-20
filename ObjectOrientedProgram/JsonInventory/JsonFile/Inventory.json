@@ -1,4 +1,4 @@
-﻿{
+{
   "RiceList": [
     {
       "Name": "Wada Kolam",
@@ -21,7 +21,7 @@
       "Price": 54
     }
   ],
-  "pulselist": [
+  "PulseList": [
     {
       "Name": "Black Gram",
       "Weight": 5,
@@ -38,7 +38,7 @@
       "Price": 77
     }
   ],
-  "wheatlist": [
+  "WheatList": [
     {
       "Name": "Durum",
       "Weight": 10,

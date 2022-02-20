@@ -9,7 +9,7 @@ namespace ObjectOrientedProgram.JsonInventory
     /// <summary>
     /// Created a file having inventory details for rice, wheat and pulses with properties
     /// </summary>
-    public class InventoryProperties
+    public class InventoryFactory
     {
         //Declaring properties
         public List<Rice> RiceList { get; set; }
